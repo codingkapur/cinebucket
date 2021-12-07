@@ -8,7 +8,7 @@ const AppProvider = ({ children }) => {
   const [error, setError] = useState({ show: false, msg: "" });
   const [movies, setMovies] = useState([]);
   const [movieID, setMovieID] = useState(273248);
-  const [query, setQuery] = useState("bourne");
+  const [query, setQuery] = useState("avengers");
   //CONFIG STATE VALUES
   const [secureBaseUrl, setSecureBaseUrl] = useState("");
   const [posterSizeW500, setPosterSizeW500] = useState("");

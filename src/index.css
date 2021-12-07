@@ -6,7 +6,15 @@
   box-sizing: border-box;
 }
 body {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    color: rgb(38, 38, 38);
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  color: rgb(38, 38, 38);
+}
+.app__container {
+  border: 3px solid #123;
+}
+.app__container--main {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
 }

@@ -1,0 +1,20 @@
+.movies__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    border: 1px solid #123;
+    place-items: center;
+    padding: 1rem 0;
+}
+.movie__container {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    place-items: center;
+}
+.movie__image {
+    height: 200px;
+    cursor: pointer;
+}
