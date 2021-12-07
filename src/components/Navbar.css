@@ -1,0 +1,23 @@
+nav {
+    background-color: rgb(202, 202, 202);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar__container {
+    /* min-height: 5vh; */
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+}
+.nav__logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.nav__search--icon {
+    font-size: 1.5rem;
+} 
