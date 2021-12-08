@@ -9,6 +9,7 @@ const Home = () => {
     secureBaseUrl,
     posterSizeW500,
     backdropSizeOriginal,
+    heroGenre,
   } = useGlobalContext();
   const {
     backdrop_path,
@@ -25,7 +26,7 @@ const Home = () => {
   if (searchState) {
     return <Movies />;
   }
-  const moneyFormat = Intl.NumberFormat('en-US')
+  const moneyFormat = Intl.NumberFormat("en-US");
   return (
     <div
       className="home__container"
@@ -48,17 +49,26 @@ const Home = () => {
             <p className="movie__title">{title}</p>
             <p className="movie__tagline">{tagline}</p>
             <p className="movie__overview">{overview}</p>
+            <p className="movie__genres">{heroGenre.join(" . ")}</p>
           </div>
           <div className="movie__facts--container">
             <div className="movie__fact--container">
               <p className="movie__fact--title">Total Budget</p>
 
-              <p className="movie__fact--info">$ {moneyFormat.format(budget)}</p>
+              <p className="movie__fact--info">
+                {moneyFormat.format(budget) === "0"
+                  ? "N/A"
+                  : `$ ${moneyFormat.format(budget)}`}
+              </p>
             </div>
             <div className="movie__fact--container">
               <p className="movie__fact--title">Revenue</p>
 
-              <p className="movie__fact--info">$ {moneyFormat.format(revenue)}</p>
+              <p className="movie__fact--info">
+                {moneyFormat.format(revenue) === "0"
+                  ? "N/A"
+                  : `$ ${moneyFormat.format(revenue)}`}
+              </p>
             </div>
             <div className="movie__fact--container">
               <p className="movie__fact--title">Released On</p>
@@ -73,7 +83,9 @@ const Home = () => {
             <div className="movie__fact--container">
               <p className="movie__fact--title">Average Rating</p>
 
-              <p className="movie__fact--info">{vote_average}</p>
+              <p className="movie__fact--info">
+                {vote_average === 0 ? "N/A" : vote_average}
+              </p>
             </div>
           </div>
         </div>

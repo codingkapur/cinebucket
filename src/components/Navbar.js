@@ -37,7 +37,7 @@ const Navbar = () => {
         <form className="nav__search--form" onSubmit={handleSearch}>
           <Link to={`/cinebucket/`}>
             <input
-              autoFocus
+              autoComplete="off"
               type="text"
               name="query"
               placeholder="Enter Movie Name"
