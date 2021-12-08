@@ -1,0 +1,14 @@
+.loading__container {
+    height: 90vh;
+    color: var(--color-text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+
+}
+.loading__message {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}

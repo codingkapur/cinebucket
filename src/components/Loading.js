@@ -1,9 +1,16 @@
 import React from "react";
-
+import { useGlobalContext } from "../context";
+import "./Loading.css";
 const Loading = () => {
+  const { query } = useGlobalContext();
+
   return (
     <div className="loading__container">
-      <p className="loading__message">Loading...</p>
+      {query === "" ? (
+        <p className="loading__message">Search for a movie</p>
+      ) : (
+        <p className="loading__message">Loading...</p>
+      )}
     </div>
   );
 };
