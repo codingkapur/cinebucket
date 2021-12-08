@@ -41,6 +41,7 @@ const SingleMovie = () => {
         backgroundImage: `url(${secureBaseUrl}${backdropSizeOriginal}${movie.backdrop_path})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition:"center"
       }}
     >
       <div className="hero__movie--container">

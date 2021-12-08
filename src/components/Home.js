@@ -34,6 +34,8 @@ const Home = () => {
         backgroundImage: `url(${secureBaseUrl}${backdropSizeOriginal}${backdrop_path})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition:"center"
+
       }}
     >
       <div className="hero__movie--container">
