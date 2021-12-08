@@ -32,7 +32,7 @@ const AppProvider = ({ children }) => {
 
   //FUNCTIONS
   const generateRandom = () => {
-    return favMoviesIDS[Math.trunc(Math.random() * 35)];
+    return favMoviesIDS[Math.trunc(Math.random() * (favMoviesIDS.length - 1))];
   };
   const genres = [];
   const fetchHeroMovie = async (movie) => {
