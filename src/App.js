@@ -8,8 +8,8 @@ function App() {
       <Navbar />
       <div className="app__container--main">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route exact path="/:id" element={<SingleMovie />}></Route>
+          <Route path="/cinebucket/" element={<Home />}></Route>
+          <Route exact path="/cinebucket/:id" element={<SingleMovie />}></Route>
         </Routes>
       </div>
     </Router>

@@ -28,23 +28,26 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar__container">
-        <Link to={`/`}>
+        <Link to={`/cinebucket`}>
           <div className="nav__logo--container" onClick={handleLogoClick}>
             <p className="logo">CineBucket</p>
             <p className="logo__subtitle">Explore Cinema</p>
           </div>
         </Link>
         <form className="nav__search--form" onSubmit={handleSearch}>
-          <input
-            type="text"
-            name="query"
-            placeholder="Enter Movie Name"
-            value={query}
-            onChange={(e) => handleSearchInput(e)}
-            className={
-              searchState ? "nav__search--input active" : "nav__search--input"
-            }
-          />
+          <Link to={`/cinebucket/`}>
+            <input
+              autoFocus
+              type="text"
+              name="query"
+              placeholder="Enter Movie Name"
+              value={query}
+              onChange={(e) => handleSearchInput(e)}
+              className={
+                searchState ? "nav__search--input active" : "nav__search--input"
+              }
+            />
+          </Link>
           <FiSearch
             className="nav__search--icon"
             onClick={handleSearchIconClick}

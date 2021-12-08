@@ -1,7 +1,6 @@
 nav {
   background-color: var(--color-primary);
   opacity: 0.8;
-  backdrop-filter: blur(5px);
   height: 10vh;
   display: flex;
   align-items: center;
@@ -38,8 +37,6 @@ nav {
   /* border:1px solid #fff; */
   text-shadow: 1px 1px 3px var(--color-text-light),
     -1px -1px 3px var(--color-text-dark);
-
-  filter: blur(0.007em);
 }
 .logo__subtitle {
   font-size: 0.8rem;

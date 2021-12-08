@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/codingkapur/cinebucket",
-  "name": "mooviee",
+  "homepage": "http://codingkapur.github.io/cinebucket",
+  "name": "cinebucket",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

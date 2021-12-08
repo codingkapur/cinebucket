@@ -56,6 +56,8 @@ const AppProvider = ({ children }) => {
       const data = await res.json();
       if (data.results.length < 1) {
         console.log("No results found!");
+        setLoading(false);
+        setMovies([]);
       } else {
         setMovies(data.results.filter((movie) => movie.poster_path !== null));
         setLoading(false);
