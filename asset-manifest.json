@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cinebucket/static/css/main.54e697f9.chunk.css",
+    "main.css": "/cinebucket/static/css/main.6a4ace68.chunk.css",
     "main.js": "/cinebucket/static/js/main.68304aac.chunk.js",
     "main.js.map": "/cinebucket/static/js/main.68304aac.chunk.js.map",
     "runtime-main.js": "/cinebucket/static/js/runtime-main.1125ecc0.js",
@@ -8,13 +8,13 @@
     "static/js/2.a5d37b8e.chunk.js": "/cinebucket/static/js/2.a5d37b8e.chunk.js",
     "static/js/2.a5d37b8e.chunk.js.map": "/cinebucket/static/js/2.a5d37b8e.chunk.js.map",
     "index.html": "/cinebucket/index.html",
-    "static/css/main.54e697f9.chunk.css.map": "/cinebucket/static/css/main.54e697f9.chunk.css.map",
+    "static/css/main.6a4ace68.chunk.css.map": "/cinebucket/static/css/main.6a4ace68.chunk.css.map",
     "static/js/2.a5d37b8e.chunk.js.LICENSE.txt": "/cinebucket/static/js/2.a5d37b8e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1125ecc0.js",
     "static/js/2.a5d37b8e.chunk.js",
-    "static/css/main.54e697f9.chunk.css",
+    "static/css/main.6a4ace68.chunk.css",
     "static/js/main.68304aac.chunk.js"
   ]
 }
