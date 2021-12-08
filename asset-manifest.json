@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cinebucket/static/css/main.981ebd84.chunk.css",
-    "main.js": "/cinebucket/static/js/main.4d8d79c7.chunk.js",
-    "main.js.map": "/cinebucket/static/js/main.4d8d79c7.chunk.js.map",
+    "main.css": "/cinebucket/static/css/main.d51ec6bc.chunk.css",
+    "main.js": "/cinebucket/static/js/main.3854657b.chunk.js",
+    "main.js.map": "/cinebucket/static/js/main.3854657b.chunk.js.map",
     "runtime-main.js": "/cinebucket/static/js/runtime-main.1125ecc0.js",
     "runtime-main.js.map": "/cinebucket/static/js/runtime-main.1125ecc0.js.map",
     "static/js/2.a5d37b8e.chunk.js": "/cinebucket/static/js/2.a5d37b8e.chunk.js",
     "static/js/2.a5d37b8e.chunk.js.map": "/cinebucket/static/js/2.a5d37b8e.chunk.js.map",
     "index.html": "/cinebucket/index.html",
-    "static/css/main.981ebd84.chunk.css.map": "/cinebucket/static/css/main.981ebd84.chunk.css.map",
+    "static/css/main.d51ec6bc.chunk.css.map": "/cinebucket/static/css/main.d51ec6bc.chunk.css.map",
     "static/js/2.a5d37b8e.chunk.js.LICENSE.txt": "/cinebucket/static/js/2.a5d37b8e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1125ecc0.js",
     "static/js/2.a5d37b8e.chunk.js",
-    "static/css/main.981ebd84.chunk.css",
-    "static/js/main.4d8d79c7.chunk.js"
+    "static/css/main.d51ec6bc.chunk.css",
+    "static/js/main.3854657b.chunk.js"
   ]
 }
