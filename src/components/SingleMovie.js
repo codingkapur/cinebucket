@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useGlobalContext } from "../context";
+import { useLocation } from "react-router";
 const SingleMovie = () => {
   const { secureBaseUrl, backdropSizeOriginal, posterSizeW500 } =
     useGlobalContext();
@@ -41,7 +42,7 @@ const SingleMovie = () => {
         backgroundImage: `url(${secureBaseUrl}${backdropSizeOriginal}${movie.backdrop_path})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition:"center"
+        backgroundPosition: "center",
       }}
     >
       <div className="hero__movie--container">

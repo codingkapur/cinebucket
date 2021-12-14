@@ -1,7 +1,8 @@
 import React from "react";
 import { useGlobalContext } from "../context";
-import Movies from "./home-components/Movies";
+import SearchResults from "./home-components/SearchResults";
 import "./Home.css";
+import SingleMovie from "./SingleMovie";
 const Home = () => {
   const {
     searchState,
@@ -24,7 +25,7 @@ const Home = () => {
     poster_path,
   } = heroMovie;
   if (searchState) {
-    return <Movies />;
+    return <SearchResults />;
   }
   const moneyFormat = Intl.NumberFormat("en-US");
   return (
@@ -34,8 +35,7 @@ const Home = () => {
         backgroundImage: `url(${secureBaseUrl}${backdropSizeOriginal}${backdrop_path})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition:"center"
-
+        backgroundPosition: "center",
       }}
     >
       <div className="hero__movie--container">

@@ -13,6 +13,7 @@ const Navbar = () => {
     setLoading,
     setMovies,
   } = useGlobalContext();
+  //SEARCH BAR FUNCTIONALITY
   const handleSearchInput = (e) => {
     setQuery(e.currentTarget.value);
   };
@@ -25,6 +26,7 @@ const Navbar = () => {
   const handleLogoClick = () => {
     setSearchState(false);
   };
+
   return (
     <nav>
       <div className="navbar__container">
